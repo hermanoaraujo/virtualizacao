@@ -1,4 +1,4 @@
 #!/bin/bash
 
-helm3 install -f Guestbook/values.yaml guestbook
-helm3 install -f Redis/values.yaml redis
+helm3 install -f Guestbook/Config/values.yaml guestbook
+helm3 install -f Redis/Config/values.yaml redis
